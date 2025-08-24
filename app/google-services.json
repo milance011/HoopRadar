@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18742257829",
+    "project_id": "hoopradar-cf6d3",
+    "storage_bucket": "hoopradar-cf6d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18742257829:android:0c4790d56bf41e77d7454c",
+        "android_client_info": {
+          "package_name": "com.milance.hoopradar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx6xd86ri4k83aGHizC5h1aVqCCuYUHuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
