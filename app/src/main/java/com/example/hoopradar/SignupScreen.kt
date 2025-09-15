@@ -28,7 +28,6 @@ import androidx.core.content.FileProvider
 import androidx.navigation.NavHostController
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
-import kotlinx.coroutines.tasks.await
 import java.io.File
 import java.io.FileOutputStream
 import java.text.SimpleDateFormat
@@ -158,7 +157,7 @@ fun SignupScreen(navController: NavHostController) {
                         BitmapFactory.decodeStream(ctx.contentResolver.openInputStream(it))
                     }
                     Image(bmp.asImageBitmap(), null, Modifier.fillMaxSize())
-                } ?: Text("Нема слике", color = Color.Gray)
+                } ?: Text("No photo", color = Color.Gray)
             }
 
             Spacer(Modifier.height(8.dp))

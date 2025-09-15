@@ -58,6 +58,11 @@ dependencies {
     implementation(libs.androidx.compose.material)
     implementation(libs.ui)
     implementation(libs.androidx.foundation)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.room.common.jvm)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.runtime.saveable)
+    implementation(libs.foundation)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -80,5 +85,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
     implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("com.github.CanHub:Android-Image-Cropper:4.3.2")
+    implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.material3:material3:1.2.0-alpha14")
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
 
 }
